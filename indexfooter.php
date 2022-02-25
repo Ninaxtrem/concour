@@ -18,8 +18,7 @@
  
 
 
-  <!--partie footer  Hassan
--->
+  <!--partie footer  Hassan-->
 
     <footer class="footer">
 
