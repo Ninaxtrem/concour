@@ -1,101 +1,146 @@
-body{
-    padding: 20px;
+.wrapper {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, minmax(50px, auto));
-    grid-template-areas:  "main";
-    justify-self: center;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    max-width: 1440px;
   }
+  
+  .hero-item,
+  .standard-item {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .news-item {
+    display: inline-block;
+    min-height: 400px;
+    width: 50%;
+  }
+  
+  .hero-item {
+    background-image: url('../img/jeu_pvp.png');
+  }
+  
+  .standard-item:nth-child(2) {
+    background-image: url("../img/jeu_construction.png");
+  }
+  
+  .standard-item:nth-child(3) {
+    background-image: url("../img/jeu_spleef.png");
+  }
+  
+  .standard-item:nth-child(4) {
+    background-image: url("../img/jeu_discofloor.png");
+  }
+  
+  @supports (display: grid) {
+    .news-item {
+      width: auto;
+      min-height: 0;
+    }
+    
+    .hero-item {
+      grid-column: 1 / span 2;
+      grid-row: 1 / 50;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
+    }
+  
+    .standard-item:nth-child(2) {
+      grid-column: 1 / span 1;
+      grid-row: 50 / 100;
+      -webkit-clip-path: polygon(0 14%, 0 86%, 90% 81%, 100% 6%);
+      clip-path: polygon(0 14%, 0 86%, 90% 81%, 100% 6%);
+      margin-top: -73px;
+    }
+  
+    .standard-item:nth-child(3) {
+      grid-column: 2 / span 1;
+      grid-row: 50 / 100;
+      -webkit-clip-path: polygon(13% 6%, 4% 84%, 100% 100%, 100% 0%);
+      clip-path: polygon(13% 6%, 4% 84%, 100% 100%, 100% 0%);
+      margin-top: -73px;
+      margin-left: -15%;
+      margin-bottom: 18px;
+    }
+  
+    .standard-item:nth-child(4) {
+      grid-column: 1 / span 2;
+      grid-row: 100 / 150;
+      -webkit-clip-path: polygon(45% 0, 100% 15%, 100% 100%, 0 100%, 0 5%);
+      clip-path: polygon(45% 0, 100% 15%, 100% 100%, 0 100%, 0 5%);
+      margin-top: -107px;
+    }
+  }
+  a{
+      text-decoration: none;
+      color: whitesmoke;
+  }
+  .boutona {
+      position: absolute;
+    background-color: #388e48;
+    display:block;
+    width:150px;
+    line-height:25px;
+    left: 30%;
+    text-align:center;
+    z-index: 2;
+    }
 
-
-.main
-{
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 25%;
-    grid-row-gap: 25px;
-}
-img {
-width : 300px;
-height : 300px;
-}
-
-.text{
-    margin-top: -100%;
-    margin-left: 120%;   
-}
-.h2{
-font-family: 'Press Start 2P', cursive;
- text-align: center;
- background-color: brown;
- margin-left: 120%; 
-
-}
-
-.p{
-    text-align: center;
-    margin-left: 120%; 
-}
-
-.box1 { grid-area: 1 / 1 / 2 / 2; }
-.box2 { grid-area: 2 / 1 / 3 / 2; }
-.box3 { grid-area: 3 / 1 / 4 / 2; }
-.box4 { grid-area: 1 / 2 / 2 / 3; }
-.box5 { grid-area: 2 / 2 / 3 / 3; }
-.box6 { grid-area: 3 / 2 / 4 / 3; }
-
-.btn  {
-    margin-top:50px;
-    position: relative;
-    display: block;
-    width: 277px;
-    height: 62px;
-    font-size: 1em;
-    font-weight: bold;
-    line-height: 60px;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: transparent;
-    cursor: pointer;
-    text-decoration:none;
-    font-family: 'Lato', sans-serif;
-    font-weight:900;
-    font-size:17px;
-    letter-spacing: .1em;
-}
-
-
-
-.btn-1 svg, .btn-2 svg, .btn-3 svg  {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.btn-1,.btn-2,.btn-3  {
-    margin:0 auto;
-}
-
-.btn-1 svg rect.btn-telecharger {
-    stroke: #388e48;
-    stroke-width: 4;
-    stroke-dasharray: 405, 0;
-    stroke-dashoffset: 0;
-    -webkit-transition: all 600ms ease;
-    transition: all 600ms ease;
-}
-
-.btn-1 span {
+.boutona:hover{
     background-color: #a66e2f;
- 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
-
-.btn-1:hover svg rect.btn-telecharger {
-    stroke-width: 4;
-    stroke-dasharray: 196, 543;
-    stroke-dashoffset: 437;
-}
+    
+    .boutonb {
+        background-color: #388e48;
+        position: absolute;
+        top: 70%;
+        display:block;
+        width:150px;
+        line-height:25px;
+        text-align:center;
+        vertical-align: middle;
+        color:rgb(8, 8, 8);
+        text-decoration:none;
+        z-index: 2;
+        }
+        .boutonb:hover{
+            background-color: #a66e2f;
+        }
+        
+        .boutonc {
+            background-color: #388e48;
+            position: absolute;
+            display:block;
+            width:150px;
+            line-height:25px;
+            text-align:center;
+            vertical-align: middle;
+            text-decoration:none;
+            z-index: 2;
+            top: 50%;
+            left: 50%;
+            }
+            .boutonc:hover{
+                background-color: #a66e2f;
+            }
+           
+            .boutond {
+                position: absolute;
+                background-color: #388e48;
+                display:block;
+                width:150px;
+                line-height:25px;
+                top: 100%;
+                left: 30%;
+                text-align:center;
+                vertical-align: middle;
+                text-decoration:none;
+                z-index: 2;
+                }
+                .boutond:hover{
+                    background-color: #a66e2f;
+                }
+               
