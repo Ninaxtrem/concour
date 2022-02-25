@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 
   
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
@@ -24,7 +24,7 @@
     <footer class="footer">
 
         <h4>© Tous droits réservés - 2022</h4>
-        <img src="./assets/img/logo.png">
+        <img src="assets/img/logo.png">
        
     </footer>
 

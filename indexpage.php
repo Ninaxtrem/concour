@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="stylepage.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <title>page2</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
 <div class="page">
 
 
-<img src="./jeu.png">
+<img src="assets/img/jeu.png">
 
 <div class="titrepage"> <h3>PVP</h3> </div>
 <div class="soustitrepage"> <h4>Régles du jeux: </h4> 
