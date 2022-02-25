@@ -8,7 +8,7 @@
         <div id="nav-links">
             <ul>
                 <li><a href="index.php"><div id="MenuIcon1"></div>home</a></li>
-                <li><a href="#competence"><div id="MenuIcon2"></div> Compétence </a></li>
+                <li><a href="#jeux"><div id="MenuIcon2"></div> Mini jeux </a></li>
                 <li><a href="scores.php"><div id="MenuIcon3"></div>scores</a></li>
                 <li><a href="contact.php"><div id="MenuIcon4"></div>Contact</a></li>
             </ul>
