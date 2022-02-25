@@ -146,7 +146,7 @@
                     background-color: #a66e2f;
                 }
 .text1{
-    color: #388e48;
+    color: #020202;
     text-shadow: 1px 1px 2px rgb(5, 5, 5);
     text-align: center;
     font-size: larger;
@@ -156,22 +156,22 @@
 }
 
 .text2{
-    color: #a66e2f;
+    color: #000000;
     text-shadow: 1px 1px 2px rgb(5, 5, 5);
     text-align: center;
     font-size: larger;
-    margin-top: 15%;
-    margin-right: 5%;
+    margin-top: 40%;
+    margin-right:155%;
     font-family: 'Press Start 2P', cursive;
 }
 
 .text3{
-    color: #a66e2f;
+    color: black;
     text-shadow: 1px 1px 2px rgb(5, 5, 5);
     text-align: center;
     font-size: larger;
-    margin-top: 15%;
-    margin-right: 5%;
+    margin-top: 55%;
+    margin-left: 60%;
     font-family: 'Press Start 2P', cursive;
 }
 
