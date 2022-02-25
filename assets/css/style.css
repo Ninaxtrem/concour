@@ -1,0 +1,210 @@
+
+/*partie Dive2  Hassan*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:"cursive";
+}
+
+.div2{
+  
+    display: flex;
+    height: 500px;
+    justify-content:space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.descriptionsiteimg{
+  
+    height: 100%;
+
+ 
+}
+.descriptionsiteimg img{
+    border-radius: 20px;
+
+}
+
+.descriptionsitetexte{
+    font-size: 15px;
+    width: 25%;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+.descriptionsitetexte h2 {
+    font-size: 35px;
+    
+
+}
+
+.descriptionsitetexte h2:hover{
+    color: #388e48;
+}
+
+
+/* media quaries pour tablet partie Dive2 hassan*/
+
+  
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    .div2{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    .descriptionsiteimg{
+        border-radius: 80px;
+        width: 100%;
+       
+    
+     
+    }
+    .descriptionsiteimg img{
+        border-radius: 20px;
+        width: 100%;
+       
+        
+    
+     
+    }
+    
+    .descriptionsitetexte{
+        font-size: 15px;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+       
+    }
+    
+    .descriptionsitetexte h2 {
+        font-size: 25px;
+        
+    
+    }
+    .descriptionsitetexte:hover h2{
+        font-size: 30px;
+        color: #388e48;
+    
+    }
+    .descriptionsitetexte p{
+        font-size: 15px;
+      
+       
+    }
+
+    }
+
+
+/* media quaries pour mobile partie Dive2 hassan*/
+ @media (max-width: 600px) { 
+    .div2{
+  
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        
+    }
+
+    .descriptionsiteimg{
+       
+        width: 100%;
+        margin-right: 50px;
+       
+    
+     
+    }
+    .descriptionsiteimg img{
+        border-radius: 20px;
+        width: 100%;
+   
+    }
+    
+    .descriptionsitetexte{
+        font-size: 15px;
+        width: 100%;
+        height: 500px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+        
+       
+    }
+    
+    .descriptionsitetexte h2 {
+        font-size: 25px;
+        
+    
+    }
+    .descriptionsitetexte:hover h2{
+        font-size: 30px;
+        color: #388e48;
+    
+    }
+    .descriptionsitetexte p{
+        font-size: 15px;
+      
+       
+    }
+
+    }
+
+
+
+
+
+        /*partie Footer  Hassan*/
+
+.footer {
+   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#4c5158;
+    color: white;
+  
+ }
+ .footer h4 {
+   
+    text-align: center;
+ }
+ .footer img {
+   
+    float: right;
+    padding-bottom: 10px;
+    margin-right: 10px;
+ }
+
+ /*media quaries pour mobile Footer Hassan */
+
+ @media (max-width: 600px) { 
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-items: center;
+    }
+}
+ /*media quaries pour tablet footer Hassan */
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-items: center;
+    }
+}
