@@ -17,14 +17,16 @@ var AllScoreList = [
 
 
 var tablescore = document.getElementById("tablescore");
-var firstLine = document.createElement("div");
 
 updateTableauScore(0);
 
 function updateTableauScore(valuee){
 
-tablescore.innerHTML = ""
+    while (tablescore.firstChild) {
+        tablescore.removeChild(tablescore.lastChild);
+      }
 
+    var firstLine = document.createElement("div");
     tablescore.appendChild(firstLine);
     tablescore.style.width = "50%";
     tablescore.style.backgroundColor = "blue";
