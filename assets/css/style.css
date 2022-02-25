@@ -25,6 +25,7 @@
   
   .standard-item:nth-child(2) {
     background-image: url("../img/jeu_construction.png");
+
   }
   
   .standard-item:nth-child(3) {
@@ -79,12 +80,12 @@
       color: whitesmoke;
   }
   .boutona {
-      position: absolute;
+    position: absolute;
     background-color: #388e48;
-    display:block;
     width:150px;
     line-height:25px;
     left: 30%;
+    margin-top: 10%;
     text-align:center;
     z-index: 2;
     }
@@ -96,7 +97,8 @@
     .boutonb {
         background-color: #388e48;
         position: absolute;
-        top: 70%;
+        top: 80%;
+        left: 15%;
         display:block;
         width:150px;
         line-height:25px;
@@ -120,7 +122,7 @@
             vertical-align: middle;
             text-decoration:none;
             z-index: 2;
-            top: 50%;
+            top: 80%;
             left: 50%;
             }
             .boutonc:hover{
@@ -133,8 +135,8 @@
                 display:block;
                 width:150px;
                 line-height:25px;
-                top: 100%;
-                left: 30%;
+                top: 120%;
+                left: 32%;
                 text-align:center;
                 vertical-align: middle;
                 text-decoration:none;
@@ -143,4 +145,42 @@
                 .boutond:hover{
                     background-color: #a66e2f;
                 }
-               
+.text1{
+    color: #388e48;
+    text-shadow: 1px 1px 2px rgb(5, 5, 5);
+    text-align: center;
+    font-size: larger;
+    margin-top: 5%;
+    margin-right: 10%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.text2{
+    color: #a66e2f;
+    text-shadow: 1px 1px 2px rgb(5, 5, 5);
+    text-align: center;
+    font-size: larger;
+    margin-top: 15%;
+    margin-right: 5%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.text3{
+    color: #a66e2f;
+    text-shadow: 1px 1px 2px rgb(5, 5, 5);
+    text-align: center;
+    font-size: larger;
+    margin-top: 15%;
+    margin-right: 5%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.text4{
+    color: #388e48;
+    text-shadow: 1px 1px 2px rgb(5, 5, 5);
+    text-align: center;
+    font-size: larger;
+    margin-top: 5%;
+    margin-right: 5%;
+    font-family: 'Press Start 2P', cursive;
+}

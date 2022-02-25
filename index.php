@@ -13,6 +13,9 @@
 <!-- partie choix de jeux -->
 <div class="wrapper">
   <div class="news-item hero-item">
+      <div class="text1">
+          PVP
+      </div>
   <div class="boutona">
   <p>
    <a href="#">Jouez</a>
@@ -20,6 +23,9 @@
 </div>
   </div>
   <div class="news-item standard-item">
+  <div class="text2">
+          CONSTRUCTION
+      </div>
   <div class="boutonb">
   <p>
    <a href="#">Jouez</a>
@@ -27,6 +33,9 @@
 </div>
   </div>
   <div class="news-item standard-item">
+  <div class="text3">
+          SPLEEF
+      </div>
   <div class="boutonc">
   <p>
    <a href="#">Jouez</a>
@@ -34,6 +43,9 @@
 </div>
   </div>
   <div class="news-item standard-item">
+  <div class="text4">
+            Disco Floor
+      </div>
   <div class="boutond">
   <p>
    <a href="#">Jouez</a>
