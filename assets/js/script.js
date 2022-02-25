@@ -19,7 +19,7 @@ var AllScoreList = [
 var tablescore = document.getElementById("tablescore");
 var firstLine = document.createElement("div");
 
-updateTableauScore(2);
+updateTableauScore(0);
 
 function updateTableauScore(valuee){
 

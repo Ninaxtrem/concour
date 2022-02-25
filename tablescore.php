@@ -1,5 +1,5 @@
 <div id="tablescore"></div>
 
-<script src="scripttablo.js">
+<script src="/assets/js/script.js">
 
 </script>
