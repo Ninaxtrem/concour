@@ -484,12 +484,14 @@ body{
     object-fit: contain;
 }
 
+
+/* partie nina  */
 .wrapper {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
-    max-width: 1440px;
+    max-width: 100%;
   }
   
   .hero-item,
@@ -570,7 +572,7 @@ body{
     background-color: #388e48;
     width:150px;
     line-height:25px;
-    left: 30%;
+    left: 38%;
     margin-top: 10%;
     text-align:center;
     z-index: 2;
@@ -583,7 +585,7 @@ body{
     .boutonb {
         background-color: #388e48;
         position: absolute;
-        top: 80%;
+        top: 139%;
         left: 15%;
         display:block;
         width:150px;
@@ -608,8 +610,8 @@ body{
             vertical-align: middle;
             text-decoration:none;
             z-index: 2;
-            top: 80%;
-            left: 50%;
+            top: 143%;
+            left: 54%;
             }
             .boutonc:hover{
                 background-color: #a66e2f;
@@ -621,8 +623,8 @@ body{
                 display:block;
                 width:150px;
                 line-height:25px;
-                top: 120%;
-                left: 32%;
+                top: 172%;
+                left: 40%;
                 text-align:center;
                 vertical-align: middle;
                 text-decoration:none;
@@ -656,7 +658,7 @@ body{
     text-shadow: 1px 1px 2px rgb(5, 5, 5);
     text-align: center;
     font-size: larger;
-    margin-top: 55%;
+    margin-top: 38%;
     margin-left: 60%;
     font-family: 'Press Start 2P', cursive;
 }
