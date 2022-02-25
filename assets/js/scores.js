@@ -62,7 +62,7 @@ class App extends React.Component {
     round[0] = shuffle(this.state.categories[event.target.value].items);
     valuetableauscores = event.target.value;
     console.log(valuetableauscores);
-   // updateTableauScore();
+    updateTableauScore(valuetableauscores);
     this.setState({
       champion: '',
       round: round });

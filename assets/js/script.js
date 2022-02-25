@@ -46,7 +46,7 @@ tablescore.innerHTML = ""
         divScoreImg.style.marginTop = "10px";
         divScoreImg.style.backgroundSize = "contain";
         divScoreImg.style.backgroundRepeat = "no-repeat";
-        divScoreImg.style.backgroundImage = "url(/assets/img/trophee.png)"
+        divScoreImg.style.backgroundImage = "url(assets/img/trophee.png)"
     
         var divRangImg = document.createElement("div");
         divRangImg.style.position = "absolute";
@@ -56,7 +56,7 @@ tablescore.innerHTML = ""
         divRangImg.style.marginTop = "20px";
         divRangImg.style.backgroundSize = "contain";
         divRangImg.style.backgroundRepeat = "no-repeat";
-        divRangImg.style.backgroundImage = "url(/assets/img/podium.png)"
+        divRangImg.style.backgroundImage = "url(assets/img/podium.png)"
     
         var divGamename = document.createElement("div");
         divGamename.innerText = AllScoreList[valuee].name;
@@ -77,7 +77,7 @@ tablescore.innerHTML = ""
     
         var divPhoto = document.createElement("div");
         divPhoto.style.backgroundColor = "grey"
-        divPhoto.style.backgroundImage = "url(/assets/img/head.png)"
+        divPhoto.style.backgroundImage = "url(assets/img/head.png)"
         divPhoto.style.backgroundRepeat = "no-repeat";
         divPhoto.style.backgroundSize = "contain"
         divPhoto.style.height = "40px";

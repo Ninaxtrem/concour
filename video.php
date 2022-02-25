@@ -5,6 +5,6 @@
 
 <div class="home_videoblackmask"></div>
 
-<img src="/assets/img/logovector.png" class="home_videologo">
+<img src="assets/img/logovector.png" class="home_videologo">
 
 </div>
