@@ -45,3 +45,57 @@ font-family: 'Press Start 2P', cursive;
 .box4 { grid-area: 1 / 2 / 2 / 3; }
 .box5 { grid-area: 2 / 2 / 3 / 3; }
 .box6 { grid-area: 3 / 2 / 4 / 3; }
+
+.btn  {
+    margin-top:50px;
+    position: relative;
+    display: block;
+    width: 277px;
+    height: 62px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    font-size:17px;
+    letter-spacing: .1em;
+}
+
+
+
+.btn-1 svg, .btn-2 svg, .btn-3 svg  {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn-1,.btn-2,.btn-3  {
+    margin:0 auto;
+}
+
+.btn-1 svg rect.btn-telecharger {
+    stroke: #388e48;
+    stroke-width: 4;
+    stroke-dasharray: 405, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.btn-1 span {
+    background-color: #a66e2f;
+ 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-1:hover svg rect.btn-telecharger {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}

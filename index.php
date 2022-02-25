@@ -23,6 +23,14 @@
           pour le joueur de survivre.<br>  
       </div>
     </div>
+    <div class="container-btn">
+        <a href="#" class="btn btn-1">
+            <svg width="277" height="62">
+                <rect class="btn-telecharger" x="5" y="5" rx="25" fill="none" stroke="#44C3D9" width="266" height="50"></rect>
+            </svg>
+            <span>Inscription</span>
+        </a>
+    </div>
     </article>
 
     <article class="box2">
@@ -32,6 +40,14 @@
     <div class="p">Le mode Robinson Crusoé, ici le but<br>  
           sera tout simplement<br> 
           pour le joueur de survivre.<br>
+    </div>
+    <div class="container-btn">
+        <a href="#" class="btn btn-1">
+            <svg width="277" height="62">
+                <rect class="btn-telecharger" x="5" y="5" rx="25" fill="none" stroke="#44C3D9" width="266" height="50"></rect>
+            </svg>
+            <span>Inscription</span>
+        </a>
     </div>
     </article>
 
@@ -43,7 +59,15 @@
     <div class="p">Le mode Robinson Crusoé, ici le but<br>  
           sera tout simplement<br> 
           pour le joueur de survivre.<br>
-    </div>      
+    </div>    
+    <div class="container-btn">
+        <a href="#" class="btn btn-1">
+            <svg width="277" height="62">
+                <rect class="btn-telecharger" x="5" y="5" rx="25" fill="none" stroke="#44C3D9" width="266" height="50"></rect>
+            </svg>
+            <span>Inscription</span>
+        </a>
+    </div>  
     </article>
 
 
@@ -54,6 +78,14 @@
     <div class="p">Le mode Robinson Crusoé, ici le but<br>  
           sera tout simplement<br> 
           pour le joueur de survivre.<br>
+    </div>
+    <div class="container-btn">
+        <a href="#" class="btn btn-1">
+            <svg width="277" height="62">
+                <rect class="btn-telecharger" x="5" y="5" rx="25" fill="none" stroke="#44C3D9" width="266" height="50"></rect>
+            </svg>
+            <span>Inscription</span>
+        </a>
     </div>
     </article>
 
@@ -67,6 +99,14 @@
           pour le joueur de survivre.<br>
           </div>
           </div>
+          <div class="container-btn">
+        <a href="#" class="btn btn-1">
+            <svg width="277" height="62">
+                <rect class="btn-telecharger" x="5" y="5" rx="25" fill="none" stroke="#44C3D9" width="266" height="50"></rect>
+            </svg>
+            <span>Inscription</span>
+        </a>
+    </div>
     </article>
 
 
@@ -78,17 +118,23 @@
           sera tout simplement
           pour le joueur de survivre.
     </div>
+    <div class="container-btn">
+        <a href="#" class="btn btn-1">
+            <svg width="277" height="62">
+                <rect class="btn-telecharger" x="5" y="5" rx="25" fill="none" stroke="#44C3D9" width="266" height="50"></rect>
+            </svg>
+            <span>Inscription</span>
+        </a>
+    </div>
     </article>
 
   </main>
 
 </div>
+<!-- fin partie choix de jeux -->
+<!-- page type -->
 
 
-
-
-</head>
-<body>
     
 </body>
 </html>
