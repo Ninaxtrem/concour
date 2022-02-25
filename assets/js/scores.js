@@ -2,31 +2,32 @@ var valuetableauscores = 0;
 const categories = [
 {
   name: "PVP",
-  items: ["Arsenal", "Chelsea", "Liverpool", "Man City", "Man United", "Tottenham", "Real Madrid", "Barcelona", "Atletico Madrid", "Bayern Munich", "Borussia Dortmund", "Juventus", "Paris Saint Germain", "AC Milan", "Inter Milan", "Ajax"] },
+  items: ["Yanis", "Cedric", "Julien", "Nina", "Hassan", "Andy", "Jordan", "Christopher", "Anthony", "Erwan", "Mikael", "Teddy H", "Antoine", "Kylian", "Quentin", "Kevin C", "Kevin D", "Yannick", "Jean Pierre", "Teddy B"] },
 
 {
   name: "construction",
-  items: ["The Beatles", "The Rolling Stones", "The Kinks", "The Who", "Queen", "Led Zeppelin", "The Clash", "The Jam", "New Order", "Oasis", "Blur", "Muse", "Arctic Monkeys", "The Cure", "Black Sabbath", "Radiohead"] },
+  items: ["Yanis", "Cedric", "Julien", "Nina", "Hassan", "Andy", "Jordan", "Christopher", "Anthony", "Erwan", "Mikael", "Teddy H", "Antoine", "Kylian", "Quentin", "Kevin C", "Kevin D", "Yannick", "Jean Pierre", "Teddy B"] },
 
 {
   name: "disco dance",
-  items: ["disco dance", "The Rolling Stones", "The Kinks", "The Who", "Queen", "Led Zeppelin", "The Clash", "The Jam", "New Order", "Oasis", "Blur", "Muse", "Arctic Monkeys", "The Cure", "Black Sabbath", "Radiohead"] },
+  items: ["Yanis", "Cedric", "Julien", "Nina", "Hassan", "Andy", "Jordan", "Christopher", "Anthony", "Erwan", "Mikael", "Teddy H", "Antoine", "Kylian", "Quentin", "Kevin C", "Kevin D", "Yannick", "Jean Pierre", "Teddy B"] },
 
 {
   name: "Bedwars",
-  items: ["Bedwars", "Bedwars1", "The Kinks", "The Who", "Queen", "Led Zeppelin", "The Clash", "The Jam", "New Order", "Oasis", "Blur", "Muse", "Arctic Monkeys", "The Cure", "Black Sabbath", "Radiohead"] },
+  items: ["Yanis", "Cedric", "Julien", "Nina", "Hassan", "Andy", "Jordan", "Christopher", "Anthony", "Erwan", "Mikael", "Teddy H", "Antoine", "Kylian", "Quentin", "Kevin C", "Kevin D", "Yannick", "Jean Pierre", "Teddy B"] },
 
 {
   name: "spleef",
-  items: ["Washington", "Jefferson", "Lincoln", "T. Roosevelt", "F.D. Roosevelt", "Kennedy", "Nixon", "Clinton", "Reagan", "G.W. Bush", "Obama", "Wilson", "Trump", "Truman", "Carter", "Eisenhower"] }];
+  items: ["Yanis", "Cedric", "Julien", "Nina", "Hassan", "Andy", "Jordan", "Christopher", "Anthony", "Erwan", "Mikael", "Teddy H", "Antoine", "Kylian", "Quentin", "Kevin C", "Kevin D", "Yannick", "Jean Pierre", "Teddy B"]}];
 
 
 
-const blankRound = [
-['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''],
-['', '', '', '', '', '', '', ''],
-['', '', '', ''],
-['', '']];
+  const blankRound = [
+    ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','','','',''],
+    ['', '', '', '', '', '', '', '','',''],
+    ['', '', '', '',''],
+    ['', '']];
+    
 
 
 function shuffle(a) {
